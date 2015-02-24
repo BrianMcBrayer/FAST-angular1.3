@@ -1,0 +1,11 @@
+{
+  "paths": {
+    "htmlSrc": [
+      "./src/**/*.html"
+    ],
+    "jsSrc": [
+      "./src/**/*.js"
+    ],
+    "dist": "./dist"
+  }
+}
