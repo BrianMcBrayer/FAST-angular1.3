@@ -14,7 +14,15 @@
         url: '/multibind',
         config: {
           templateUrl: '/views/multibind/multibindHome.tmpl.html',
-          controller: '/views/multibind/multibind.controller.js',
+          controller: 'multibindController',
+          controllerAs: 'vm'
+        }
+      },
+      {
+        url: '/multibind/multibind10000',
+        config: {
+          templateUrl: '/views/multibind/multibind10000.tmpl.html',
+          controller: 'multibindController',
           controllerAs: 'vm'
         }
       }

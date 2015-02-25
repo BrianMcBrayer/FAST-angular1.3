@@ -2,7 +2,8 @@ angular.module('app',
   [
     'ngRoute',
 
-    'config'
+    'config',
+    'FAST'
   ])
   .run(['$route', function($route) {
 

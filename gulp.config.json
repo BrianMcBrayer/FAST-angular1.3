@@ -12,7 +12,9 @@
       "./bower_components/angular-route/angular-route.min.js",
       "./bower_components/angular-route/angular-route.min.js.map",
       "./bower_components/free/dist/free.min.js",
-      "./bower_components/free/dist/free.min.js.map"
+      "./bower_components/free/dist/free.min.js.map",
+      "./bower_components/jquery/dist/jquery.min.js",
+      "./bower_components/jquery/dist/jquery.min.map"
     ],
     "dist": "./dist",
     "distJs": "./dist/js",
