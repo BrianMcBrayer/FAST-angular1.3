@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html ng-app="app">
+  <head>
+    <title>FAST | angular1.3</title>
+  </head>
+  <body>
+    <h1>FAST angular1.3</h1>
+
+    <ul>
+      <li><a href="#/multibind">Multibind</a></li>
+    </ul>
+
+    <div ng-view></div>
+
+    <!-- external dependencies -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/angular.min.js"></script>
+    <script src="/js/angular-route.min.js"></script>
+    <script src="/js/free.min.js"></script>
+
+    <!-- test files -->
+    <!-- modules -->
+    <script src="/modules/FAST.module.js"></script>
+    <script src="/modules/config.module.js"></script>
+    <script src="/modules/app.module.js"></script>
+
+    <!-- config -->
+    <script src="/config/routes.config.js"></script>
+    <script src="/config/routeSetup.config.js"></script>
+
+    <!-- execution -->
+    <script src="/views/multibind/multibind100.controller.js"></script>
+    <script src="/views/multibind/multibind1000.controller.js"></script>
+    <script src="/views/multibind/multibind5000.controller.js"></script>
+    <script src="/views/multibind/multibind10000.controller.js"></script>
+    <script src="/views/multibind/multibind.controller.js"></script>
+  </body>
+</html>
